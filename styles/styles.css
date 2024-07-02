@@ -37,4 +37,53 @@ h2 {
     font-family: var(--secondary-font-family);
     font-size:18px;
     line-height: 27px;
+    font-weight:500px;
+    padding:15px;
+}
+
+.section2{
+    font-family: var(--secondary-font-family);
+    color: var(--secondary-color);
+    font-size:18px;
+    line-height:27px;
+    text-align:center;
+}
+
+.project_name{
+    font-family: var(--primary-font-family);
+    font-weight:700;
+    font-size:64px;
+    line-height: 85.31px;
+}
+
+.project_description{
+    font-family: var(--secondary-font-family);
+    color: #272142;
+    font-size:16px;
+    line-height:30px;
+}
+
+.btn.btn-primary.project{
+    background-color:white;
+    color:#6C63FF;
+    font-family: var(--secondary-font-family);
+    padding:10px;
+    font-size:16px;
+    line-height:24px;
+    font-weight:500;
+}
+
+@media (max-width:1000px){
+   .container{
+    text-align: center;
+    padding: 0px 15px;
+   }
+
+   h1{
+    font-size: 80px;;
+   }
+
+   p, h2{
+    font-size: 20px;
+   }
 }
