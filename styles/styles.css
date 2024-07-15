@@ -109,42 +109,6 @@ h2 {
     font-weight:500;
 }
 
-@media (max-width:1000px){
-   .container{
-    text-align: center;
-    padding: 0px 15px;
-   }
-
-   h1{
-    font-size: 80px;;
-   }
-
-   p, h2{
-    font-size: 20px;
-   }
-
-
-   .logo {
-       max-width: 110px;
-   }
-
-   .header {
-       margin-left: 8px;
-       font-size: 12px;
-   }
-
-   .header-main {
-       font-size: 13px;
-       padding: 5px;
-       line-height: 15px;
-   }
-
-   .work,
-   .container footer {
-       display: none;
-   }
-}
-
 footer{
     margin-top: 80px;
 }
@@ -211,4 +175,71 @@ h4{
     color:#F9F7FD;
     background-color: #6B62FF;
     transition: 100ms;
+}
+
+.ending{
+    font-size:16px;
+    line-height: 30px;
+    font-family: var(--secondary-font-family);
+
+}
+
+@media (max-width:1000px) {
+    .container {
+        text-align: center;
+        padding: 0px 15px;
+    }
+
+    h1 {
+        font-size: 80px;
+        ;
+    }
+
+    p,
+    h2 {
+        font-size: 20px;
+    }
+
+
+    .logo {
+        max-width: 110px;
+    }
+
+    .header {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+
+    .header-main {
+        font-size: 13px;
+        padding: 5px;
+        line-height: 15px;
+    }
+
+    .work,
+    .container footer {
+        padding:18px;
+        text-align: left;
+    }
+
+    .ending{
+        font-size:10px;
+    }
+
+    h4{
+        font-size: 30px;
+    }
+    .p-footer{
+        font-size: 12px;
+    }
+
+    .btn.btn-primary.footer{
+        font-size: 13px;
+        text-align: center;
+        line-height: 20px;
+        padding: 10px 20px;
+        font-weight: 600;
+        margin-top:30px;
+    }
+
 }
