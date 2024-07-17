@@ -85,6 +85,7 @@ h2 {
     padding:15px;
 }
 
+
 .section2{
     font-family: var(--secondary-font-family);
     color: var(--secondary-color);
@@ -116,6 +117,13 @@ h2 {
     line-height:24px;
     font-weight:500;
 }
+
+.btn.btn-primary.project:hover{
+    background-color: #6C63FF;
+    color:white;
+    transition: 100ms ease-in;
+}
+
 
 footer{
     margin: 80px 15px 0px;
