@@ -222,9 +222,12 @@ h4{
         line-height: 15px;
     }
 
-    .work,
-    .container footer {
-        padding:18px;
+    footer {
+        padding:20px;
+        text-align: left;
+    }
+
+    .work{
         text-align: left;
     }
 
