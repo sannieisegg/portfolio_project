@@ -20,23 +20,27 @@
         rel="stylesheet">
 </head>
 <body>
-    <div class="container mt-3 d-flex justify-content-between">
-        <img src="images/logo.png" class="logo img-fluid mt-1" alt="website logo">
-        <ul class="nav ms-auto">
-            <li class="nav-item mb-2">
-                <a class="header" href="/" title="Homepage">Home</a>
-            </li>
-            <li class="nav-item mb-2">
-                <a class="header-main" href="about.html" title="About Sannie">About</a>
-            </li>
-            <li class="nav-item mb-2">
-                <a class="header" href="work.html" title="Sannie's Work">Work</a>
-            </li>
-            <li class="nav-item mb-2">
-                <a class="header" href="contact.html" title="Sannie's Contact Details">Contact</a>
-            </li>
-        </ul>
-    </div>
+
+    <header>
+        <div class="container mt-3 d-flex justify-content-between">
+            <img src="images/logo.png" class="logo img-fluid mt-1" alt="website logo">
+            <ul class="nav ms-auto">
+                <li class="nav-item mb-2">
+                    <a class="header" href="/" title="Homepage">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="header-main" href="about.html" title="About Sannie">About</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="header" href="work.html" title="Sannie's Work">Work</a>
+                </li>
+                <li class="nav-item mb-2">
+                    <a class="header" href="contact.html" title="Sannie's Contact Details">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
     
     <div class="container">
         <div class="row">
@@ -46,9 +50,12 @@
                         Hi I am Patricia Pereira
                     </h1>
                     <h2 class="mb-4">Frontend Developer, based in Portugal</h2>
-                    <p class="mb-5">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different
+                    <p class="mb-5 intro">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different
                         exercises, and everything is well explained, homework and deadlines are good for keep focus</p>
-                    <button type="button" class="btn btn-primary">See my projects</button>
+                    <a href="work.html">
+                        <button type="button" class="btn btn-primary">See my projects</button>
+                    </a>
+                   
                 </div>
             </div>
             <div class="col-lg-6">
@@ -65,7 +72,7 @@
             </div>
     
             <div class="button mt-5">
-                <a class="btn btn-primary footer" href="#" role="button">Contact Me</a>
+                <a class="btn btn-primary footer" href="contact.html" role="button">Contact Me</a>
             </div>
         </div>
     </footer>

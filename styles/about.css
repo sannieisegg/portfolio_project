@@ -76,6 +76,10 @@ h2{
     padding: 15px;
 }
 
+.btn.btn-primary:hover{
+    color:black;
+    transition: 100ms ease-in;
+}
 
 img{
     margin-top: 180px;
@@ -153,67 +157,104 @@ h4 {
     font-size: 16px;
     line-height: 30px;
     font-family: var(--secondary-font-family);
-
-
-
-
-
+}
 
 @media (max-width:1000px) {
-    .content-container {
+    .container{
         text-align: center;
-        margin-top:4px;
+        padding: 0px 15px;
+    }
+
+    .about-section{
+        margin-top:15px;
+    }
+
+    h1{
+        font-size:60px;
+    }
+
+    h2{
+        font-size:15px;
+    }
+
+    .intro{
+        font-size:12px;
+    }
+
+    .btn.btn-primary{
+        font-size: 14px;
     }
 
     img{
-        margin-top: 50px;
+        margin-top:40px
     }
-    
-    .logo {
-        max-width: 110px;
+
+
+    .logo{
+        max-width:110px;
+        padding-bottom: 52px;
     }
-    
+
     .header {
         margin-left: 8px;
+        font-size: 11px;
+        padding-bottom: 40px
+    }
+
+    .header-main {
+        font-size: 11px;
+        padding: 5px;
+        line-height: 11px;
+        padding-bottom:45px
+    }
+
+
+    .work,
+    .container footer {
+        padding: 18px;
+        text-align: left;
+    }
+
+    .ending {
+        font-size: 10px;
+    }
+    
+    h4 {
+        font-size: 30px;
+    }
+    
+    .p-footer {
         font-size: 12px;
     }
     
-    .header-main {
+    .btn.btn-primary.footer {
         font-size: 13px;
-        padding: 5px;
-        line-height: 15px;
+        text-align: center;
+        line-height: 20px;
+        padding: 10px 20px;
+        font-weight: 600;
+        margin-top: 30px;
     }
 
-        .work,
-        .container footer {
-            padding: 18px;
-            text-align: left;
-        }
-    
-        .ending {
-            font-size: 10px;
-        }
-    
-        h4 {
-            font-size: 30px;
-        }
-    
-        .p-footer {
-            font-size: 12px;
-        }
-    
-        .btn.btn-primary.footer {
-            font-size: 13px;
-            text-align: center;
-            line-height: 20px;
-            padding: 10px 20px;
-            font-weight: 600;
-            margin-top: 30px;
-        }
-    
-}
-    
+    .contact-email {
+        font-size: 18px;
+        color: #6B62FF;
+    }
 
+    footer {
+        margin: 10px 15px 0px;
+    }
+    
+    .footer-section {
+        padding: 0px 30px;
+        margin-top:50px
+    }
+
+    .fa-brands{
+        padding:10px;
+    }
+
+}
 
 
 

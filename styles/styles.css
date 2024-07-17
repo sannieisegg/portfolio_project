@@ -28,6 +28,10 @@
     font-weight: 500;
 }
 
+.row{
+    margin-bottom:50px;
+}
+
 .nav-item {
     display: flex;
     align-items: center;
@@ -45,6 +49,10 @@ li{
     text-align: center;
     background-color: #F9F7FE;
     padding: 100px 20px;
+}
+
+.contact-button:hover{
+    color:black;
 }
 
 p, h2 {
@@ -110,14 +118,12 @@ h2 {
 }
 
 footer{
-    margin-top: 80px;
-}
-
-.container footer{
+    margin: 80px 15px 0px;
     background-color: #F9F7FD;
-    padding:5px 90px;
+    padding: 5px 90px;
     border-radius: 4px;
 }
+    
 
 .work{
     margin-left: 5px;
@@ -243,10 +249,13 @@ h4{
         margin-top:30px;
     }
 
-
     .contact-email {
         font-size: 18px;
         color: #6B62FF;
+    }
+
+    .fa-brands{
+        padding:10px;
     }
 
 }

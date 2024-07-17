@@ -213,8 +213,10 @@ footer{
 
 .footer-section{
     padding:0px 30px;
-   
-   
+}
+
+.fa-brands{
+    padding:10px;
 }
 
 }
